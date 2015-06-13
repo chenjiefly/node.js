@@ -71,6 +71,6 @@ app.use(function(err, req, res, next) {
 
 app.listen(app.get('port'));
 
-// console.log('The server is starting.');
+console.log('The server is starting.');
 
 module.exports = app;
